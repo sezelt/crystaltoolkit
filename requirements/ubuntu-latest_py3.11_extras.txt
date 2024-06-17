@@ -74,9 +74,9 @@ blinker==1.8.2
     # via flask
 boltztrap2==24.1.1
     # via ifermi
-boto3==1.34.117
+boto3==1.34.127
     # via maggma
-botocore==1.34.117
+botocore==1.34.127
     # via
     #   boto3
     #   s3transfer
@@ -99,7 +99,7 @@ cffi==1.16.0
     #   pynacl
 cfgv==3.4.0
     # via pre-commit
-cftime==1.6.3
+cftime==1.6.4
     # via netcdf4
 charset-normalizer==3.3.2
     # via requests
@@ -125,8 +125,9 @@ commonmark==0.9.1
     # via recommonmark
 contourpy==1.2.1
     # via matplotlib
-cryptography==42.0.7
+cryptography==42.0.8
     # via
+    #   dash
     #   paramiko
     #   pyopenssl
     #   urllib3
@@ -134,7 +135,7 @@ crystaltoolkit-extension==0.6.0
     # via crystal_toolkit (pyproject.toml)
 cycler==0.12.1
     # via matplotlib
-dash[testing]==2.17.0
+dash[testing]==2.17.1
     # via
     #   crystal_toolkit (pyproject.toml)
     #   dash-extensions
@@ -153,7 +154,7 @@ dash-testing-stub==0.0.2
     # via dash
 dash-vtk==0.0.9
     # via crystal_toolkit (pyproject.toml)
-dask==2024.5.2
+dask==2024.6.0
     # via
     #   distributed
     #   py4dstem
@@ -204,7 +205,7 @@ dill==0.3.8
     #   py4dstem
 distlib==0.3.8
     # via virtualenv
-distributed==2024.5.2
+distributed==2024.6.0
     # via py4dstem
 dnspython==2.6.1
     # via
@@ -221,11 +222,11 @@ dscribe==2.1.1
     # via crystal_toolkit (pyproject.toml)
 editorconfig==0.12.4
     # via jsbeautifier
-email-validator==2.1.1
+email-validator==2.1.2
     # via fastapi
-emdfile==0.0.14
+emdfile==0.0.15
     # via py4dstem
-emmet-core==0.83.7
+emmet-core==0.83.9
     # via mp-api
 entrypoints==0.4
     # via
@@ -237,9 +238,9 @@ fastapi==0.111.0
     # via maggma
 fastapi-cli==0.0.4
     # via fastapi
-fastjsonschema==2.19.1
+fastjsonschema==2.20.0
     # via nbformat
-filelock==3.14.0
+filelock==3.15.1
     # via
     #   gdown
     #   virtualenv
@@ -262,10 +263,8 @@ frozenlist==1.4.1
     # via
     #   aiohttp
     #   aiosignal
-fsspec==2024.5.0
+fsspec==2024.6.0
     # via dask
-future==1.0.0
-    # via uncertainties
 gdown==5.2.0
     # via py4dstem
 gevent==24.2.1
@@ -371,7 +370,7 @@ jsbeautifier==1.15.1
     # via dash-extensions
 json5==0.9.25
     # via jupyterlab-server
-jsonpointer==2.4
+jsonpointer==3.0.0
     # via jsonschema
 jsonschema[format-nongpl]==4.22.0
     # via
@@ -431,7 +430,7 @@ latexcodec==3.0.0
     # via pybtex
 lazy-loader==0.4
     # via scikit-image
-llvmlite==0.42.0
+llvmlite==0.43.0
     # via numba
 locket==1.0.0
     # via
@@ -443,7 +442,7 @@ lxml==5.2.2
     #   nbconvert
 m2r==0.3.1
     # via dephell
-maggma==0.67.0
+maggma==0.68.4
     # via mp-api
 markdown-it-py==3.0.0
     # via rich
@@ -488,7 +487,7 @@ monty==2024.5.24
     #   mp-api
     #   pymatgen
     #   robocrys
-more-itertools==10.2.0
+more-itertools==10.3.0
     # via
     #   dash-extensions
     #   inflect
@@ -538,7 +537,7 @@ nest-asyncio==1.6.0
     #   jupyter-client
     #   nbclassic
     #   notebook
-netcdf4==1.6.5
+netcdf4==1.7.0
     # via boltztrap2
 networkx==3.3
     # via
@@ -546,13 +545,13 @@ networkx==3.3
     #   pymatgen
     #   robocrys
     #   scikit-image
-nodeenv==1.9.0
+nodeenv==1.9.1
     # via pre-commit
 notebook==6.5.7
     # via jupyterlab
 notebook-shim==0.2.4
     # via nbclassic
-numba==0.59.1
+numba==0.60.0
     # via
     #   hiphive
     #   sparse
@@ -595,7 +594,7 @@ numpy==1.26.4
     #   trimesh
 numpy-stl==3.1.1
     # via meshcut
-orjson==3.10.3
+orjson==3.10.5
     # via
     #   fastapi
     #   maggma
@@ -603,7 +602,7 @@ outcome==1.3.0.post0
     # via trio
 overrides==7.7.0
     # via jupyter-server
-packaging==24.0
+packaging==24.1
     # via
     #   black
     #   dask
@@ -677,7 +676,7 @@ prometheus-client==0.20.0
     # via
     #   jupyter-server
     #   notebook
-prompt-toolkit==3.0.45
+prompt-toolkit==3.0.47
     # via ipython
 psutil==5.9.8
     # via
@@ -704,16 +703,16 @@ pybtex==0.24.0
     #   robocrys
 pycparser==2.22
     # via cffi
-pydantic==2.7.2
+pydantic==2.7.4
     # via
     #   dash-extensions
     #   emmet-core
     #   fastapi
     #   maggma
     #   pydantic-settings
-pydantic-core==2.18.3
+pydantic-core==2.18.4
     # via pydantic
-pydantic-settings==2.2.1
+pydantic-settings==2.3.3
     # via
     #   crystal_toolkit (pyproject.toml)
     #   emmet-core
@@ -743,7 +742,7 @@ pymatgen==2024.4.13
     #   matminer
     #   mp-api
     #   robocrys
-pymongo==4.7.2
+pymongo==4.7.3
     # via
     #   maggma
     #   matminer
@@ -758,7 +757,7 @@ pysocks==1.7.1
     # via
     #   requests
     #   urllib3
-pytest==8.2.1
+pytest==8.2.2
     # via
     #   crystal_toolkit (pyproject.toml)
     #   dash
@@ -808,7 +807,7 @@ pyzmq==26.0.3
     #   notebook
 recommonmark==0.7.1
     # via crystal_toolkit (pyproject.toml)
-redis==5.0.4
+redis==5.0.6
     # via crystal_toolkit (pyproject.toml)
 referencing==0.35.1
     # via
@@ -858,7 +857,7 @@ ruamel-yaml==0.18.6
     #   robocrys
 ruamel-yaml-clib==0.2.8
     # via ruamel-yaml
-ruff==0.4.7
+ruff==0.4.9
     # via dash-extensions
 s3transfer==0.10.1
     # via boto3
@@ -876,7 +875,7 @@ scikit-learn==1.4.2
     #   py4dstem
     #   scikit-optimize
     #   trainstation
-scikit-optimize==0.10.1
+scikit-optimize==0.10.2
     # via py4dstem
 scipy==1.13.1
     # via
@@ -981,7 +980,7 @@ tabulate==0.9.0
     #   pymatgen
 tblib==3.0.0
     # via distributed
-tenacity==8.3.0
+tenacity==8.4.0
     # via plotly
 termcolor==2.3.0
     # via yaspin
@@ -1007,7 +1006,7 @@ toolz==0.12.1
     #   dask
     #   distributed
     #   partd
-tornado==6.4
+tornado==6.4.1
     # via
     #   distributed
     #   ipykernel
@@ -1026,7 +1025,7 @@ tqdm==4.66.4
     #   mpire
     #   py4dstem
     #   pymatgen
-trainstation==1.0
+trainstation==1.1
     # via hiphive
 traitlets==5.14.3
     # via
@@ -1042,7 +1041,7 @@ traitlets==5.14.3
     #   nbconvert
     #   nbformat
     #   notebook
-trimesh==4.4.0
+trimesh==4.4.1
     # via ifermi
 trio==0.25.1
     # via
@@ -1056,7 +1055,7 @@ typer==0.12.3
     # via fastapi-cli
 types-python-dateutil==2.9.0.20240316
     # via arrow
-typing-extensions==4.12.1
+typing-extensions==4.12.2
     # via
     #   aiosqlite
     #   dash
@@ -1076,7 +1075,7 @@ tzdata==2024.1
     # via pandas
 ujson==5.10.0
     # via fastapi
-uncertainties==3.1.7
+uncertainties==3.2.1
     # via pymatgen
 uri-template==1.3.0
     # via jsonschema
@@ -1104,7 +1103,7 @@ watchfiles==0.22.0
     # via uvicorn
 wcwidth==0.2.13
     # via prompt-toolkit
-webcolors==1.13
+webcolors==24.6.0
     # via
     #   crystal_toolkit (pyproject.toml)
     #   jsonschema
@@ -1136,7 +1135,7 @@ ypy-websocket==0.8.4
     # via jupyter-server-ydoc
 zict==3.0.0
     # via distributed
-zipp==3.19.1
+zipp==3.19.2
     # via importlib-metadata
 zope-event==5.0
     # via gevent
